@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("header-wrapper-bg.png");
+    background-size: contain;
+    background-position: center;
+    height: 68px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo p {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: "Cookie", cursive;
+}
+.logoImg {
+    width: 77px;
+    height: 40px;
+    
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logoElysa {
+    margin: 32px auto 28px -142px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 71px; 
+    position: relative;
+    transform: translate(14%, -9%);
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 71px;
+}
+.menu li {
+    margin: 0 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 6px;
+    font-family: "Merriweather", serif;
+}
+.menu a:hover {
+    background-image: url('hover-image.jpg');
+}
+/* .menu{
+    position: relative;
+}
+.menu ul {
+    margin-left: 45%;
+    margin-top: 40px;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+} */
+
+.magna {
+    background-image: url("banner-wrapper-bg.png");
+    height: 120px;
+    background-position: center;
+    background-size: contain;
+}
+.photo{
+    position: relative;
+}
+.photo img { 
+    width: 341px;
+    height: 92px;
+    margin-top: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.photo .bText {
+    height: 28px;
+    margin-top: 95px;
+}
+
+.photo p {
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 93px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    text-align: center; 
+    font-family: "Cookie", cursive;
+}
+
+.page {
+    background-image: url("page-wrapper-bg.png");
+    height: 255px;
+    background-size: contain;
+    background-position: center;
+}
+
+.lorem{
+    position: relative;
+    top: 138px;
+    left: -65px;
+}
+.loremWall{
+    width: 228px;
+    height: 257px;
+    
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loremImg{
+    width: 207px;
+    height: 71px;
+    border-radius: 2.5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -101%);
+}
+.loremRed {
+    width: 119px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-96%, -780%);
+}
+.loremRedText{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-101%, -1410%);
+    color: white;
+    font-size: 6px;
+    font-family: "Merriweather", serif;
+}
+.loremText {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-62%, -580%);
+    color: black;
+    font-size: 13px;
+}
+.textUnderImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, 12%);
+    color: black;
+    font-size: 5px;
+    line-height: 1.8em;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.postBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("posted-meta-bg.png");
+    background-size: contain;
+    background-position: center;
+    height: 23px;
+    width: 207px;
+    border-radius: 2.5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 310%);
+}
+.right{
+    margin-left: auto;
+}
+.postedText{
+    display: flex;
+    width: 100%;
+    padding: 0 7px; /* Отступы справа и слева */
+    color: black;
+    font-size: 7px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* .postedText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-64%, 885%);
+    color: black;
+    font-size: 7px;
+    font-family: "Ubuntu Sans", sans-serif;
+} */
+.postedText a {
+    color: black;
+    white-space: nowrap;
+}
+
+/* .posted{
+    position: relative;
+} */
+/* .postedImg{
+    width: 207px;
+    height: 23px;
+    border-radius: 2.5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 310%);
+} */
+.brown img{
+    width: 117px;
+    height: 14px;
+}
+
+.sideBarRed1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -201%);
+}
+.sideBarRed2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 275%);
+}
+.sideBarRed3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 930%);
+}
+.pAbout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(205%, -400%);
+    color: white;
+    font-size: 5px;
+    font-family: "Merriweather", serif;
+}
+.pRecent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(249%, 695%);
+    color: white;
+    font-size: 5px;
+    font-family: "Merriweather", serif;
+}
+.pSmth{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(189%, 2223%);
+    color: white;
+    font-size: 5px;
+    font-family: "Merriweather", serif;
+}
+.underPAbout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(85%, -20%);
+    color: #F7DFDF;
+    font-size: 5px;
+    line-height: 2em;
+    font-family: "Merriweather", serif;
+}
+.underSmth{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(91%, 373%);
+    color: #F7DFDF;
+    font-size: 5px;
+    line-height: 2em;
+    font-family: "Merriweather", serif;
+}
+
+.brown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    position: relative;
+}
+.brownUl{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 222px;
+    margin-top: 150px;
+}
+.textUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    position: relative;
+}
+.bUlText{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 227px;
+    margin-top: -18px;
+}
+.bUlText li{
+    list-style: none;
+    display: flex;
+    color: #F7DFDF;
+    font-size: 5px;
+    /* line-height: 2em; */
+    font-family: "Merriweather", serif;
+    padding: 1px;
+} 
+.brownLine{
+    height: 4px;
+    width: 80px;
+}
+#oneLi{
+    margin-bottom: -4px;
+}
+#threeLi{
+    margin-top: -13px;
+}
+.brown #one{
+    width: 105px;
+    height: auto;
+}
+.brown #two { /*средний большой*/
+    width: 105px;
+    height: 225px;
+}
+.brown #three{
+    width: 105px;
+    height: auto;
+} 
+
+.almFooter {
+    background-image: url("footer-content-bg-02.png");
+    background-size: contain;
+    background-position: center;
+    height: 95px;
+    align-items: center;
+    position: relative;
+}
+.container{
+    position: relative;
+}
+.item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container img{
+    width: 110px;
+    height: 72px;
+    border-radius: 2.5%;
+}
+.container p {
+    position: absolute;
+    transform: translate(14%, -133%);
+    color: white;
+    line-height: 1.6em;
+    font-size: 5px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+.itemImg1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-165%, 20%);
+}
+
+.itemImg2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, 20%);
+}
+
+.itemImg3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(54%, 20%);
+}
+
+footer{
+    background-image: url("footer-bg.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100px; 
+}
+footer a {
+    color: #62352B;
+}
+footer p{
+    text-align: center;
+    padding-top: 15px;
+    color: #62352B;
+    font-size: 6px;
+    font-family: "Ubuntu Sans", sans-serif;
+}
